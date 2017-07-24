@@ -48,6 +48,7 @@ public class ManualDiceRolls {
         };
     }
 
+    //扇子随机两次值相加
     private int twoDiceThrows(ThreadLocalRandom random) {
         int firstThrow = random.nextInt(1, 7);
         int secondThrow = random.nextInt(1, 7);
